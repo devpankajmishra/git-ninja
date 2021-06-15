@@ -123,3 +123,18 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 -- NOTE fix this merge conflict issues.Then commit (from master ofcourse)
 git add . and git commit (don't add any message, because we are mergeing feature-3 and master codes)
+
+<!-- PART GITHUB (Remote git) -->
+
+git push https://github.com/devpankajmishra/git-ninja.git master
+-- NOTE here we pushing to repository (master -> master)
+-- MSG Enumerating objects: 37, done.
+Counting objects: 100% (37/37), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (34/34), done.
+Writing objects: 100% (37/37), 4.89 KiB | 217.00 KiB/s, done.
+Total 37 (delta 17), reused 0 (delta 0)
+remote: Resolving deltas: 100% (17/17), done.
+To https://github.com/devpankajmishra/git-ninja.git
+
+- [new branch] master -> master
