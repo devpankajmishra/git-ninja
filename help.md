@@ -122,11 +122,12 @@ CONFLICT (content): Merge conflict in style.css
 Automatic merge failed; fix conflicts and then commit the result.
 
 -- NOTE fix this merge conflict issues.Then commit (from master ofcourse)
-git add . and git commit (don't add any message, because we are mergeing feature-3 and master codes)
+20=> git add . and git commit
+(don't add any message, because we are mergeing feature-3 and master codes)
 
 <!-- PART GITHUB (Remote git) -->
 
-git push https://github.com/devpankajmishra/git-ninja.git master
+21=> git push https://github.com/devpankajmishra/git-ninja.git master
 -- NOTE here we pushing to repository (master -> master)
 -- MSG Enumerating objects: 37, done.
 Counting objects: 100% (37/37), done.
@@ -138,3 +139,10 @@ remote: Resolving deltas: 100% (17/17), done.
 To https://github.com/devpankajmishra/git-ninja.git
 
 - [new branch] master -> master
+
+22=> git remote add origin https://github.com/devpankajmishra/git-ninja.git
+-- NOTE here making alias of this long url as origin.
+
+23=> git push origin master
+origin ---- alias of repo url
+master ---- branch
