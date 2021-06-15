@@ -170,3 +170,16 @@ To https://github.com/devpankajmishra/git-ninja.git
 \
 origin ---- alias of repo url
 master ---- branch
+
+24=> git remote -v
+\
+origin https://github.com/devpankajmishra/git-ninja.git (fetch)
+origin https://github.com/devpankajmishra/git-ninja.git (push)
+
+25=> git pull origin master
+\
+origin ---- repoUrl and master ---- master branch
+
+26=> git push origin remote-branch-1
+\
+code pushed to new branch before merge with master
